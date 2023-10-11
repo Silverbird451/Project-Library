@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1 class="openLibrary">Open Library</h1>    
+    </div>
+    <div class="newBooks">
+        <div class="formTitle">Add new book</div>
+        <form action="#">
+            <div class="inputCell">
+                <label for="title">Tittle</label>
+                <input type="text" id="title">
+            </div>
+        
+            <div class="inputCell">
+                <label for="author" >Author</label>
+                <input type="text" id="author">
+            </div>
+            
+            <div class="inputCell">
+                <label for="pages">Pages</label>
+                <input type="tel" id="pages">
+            </div>
+
+            <div class="inputCell">
+                <label for="status">Status</label>
+                <select name="status" id="status">
+                    <option value="red">Red</option>
+                    <option value="not-red">Not Red</option>
+                </select>
+            </div>
+            
+        </form>
+        <button class="submitBtn" id="submitBtn">Submit</button>
+    </div>
+    <div class="bookList">
+        <div class="bookListHead">
+            <h3 class="top-b-head">Books</h3>
+            <div class="properties">
+                <div>Title</div>
+                <div>Author</div>
+                <div>Pages</div>
+                <div>Status</div>
+            </div>
+            <div class="booksAdded" id="booksAdded">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
