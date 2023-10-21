@@ -58,9 +58,7 @@ form {
 .inputCell {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.2rem;
-    margin-right: 2rem;
-    margin-left: 2rem; 
+    margin-bottom: 1.2rem; 
 }
 
 
